@@ -5,13 +5,13 @@ import cn from "classnames";
 import Arrow from "./arrow.svg";
 
 
-export const Button = ({ appirance, arrow='none', children, className, ...props }:ButtonProps): JSX.Element => {
+export const Button = ({ appearance: appearance, arrow='none', children, className, ...props }:ButtonProps): JSX.Element => {
   
   return (
     <button
       className={cn(styles.button,className,{
-        [styles.primary]: appirance == 'primary',
-        [styles.ghost]: appirance == 'ghost',
+        [styles.primary]: appearance == 'primary',
+        [styles.ghost]: appearance == 'ghost',
       })}
 
       {...props}

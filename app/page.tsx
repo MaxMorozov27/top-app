@@ -1,4 +1,4 @@
-
+'use client'
 import { Htag } from "@/components";
 import { Button } from "@/components/Button/Button";
 import { P } from "@/components/P/P";
@@ -12,8 +12,8 @@ export default function Home(): JSX.Element {
       <Htag tag="h2">Hello world! Привет мир!</Htag>
       <Htag tag="h3">Hello world! Привет мир!</Htag>
 
-      <Button appirance="primary" arrow="right">Просмотреть</Button>
-      <Button appirance="ghost" arrow="down">Просмотреть</Button>
+      <Button appearance="primary" arrow="right">Просмотреть</Button>
+      <Button appearance="ghost" arrow="down">Просмотреть</Button>
 
       <P size="s" className="bordered">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &apos;Content here, content here&apos;, making it look like readable English.</P>
       <P size="m">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &apos;Content here, content here&apos;, making it look like readable English.</P>
